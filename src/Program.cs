@@ -43,7 +43,7 @@ namespace gInk {
 				WriteErrorLog(errorMsg);
 
 				errorMsg += "!!! PLEASE PRESS ESC KEY TO EXIT IF YOU FEEL YOUR MOUSE CLICK IS BLOCKED BY SOMETHING";
-				ShowErrorDialog("UIThreadException", errorMsg);
+				//ShowErrorDialog("UIThreadException", errorMsg); //Desabilitei 
 			}
 			catch {
 				try {
